@@ -1,0 +1,25 @@
+option 1 More convieniet
+//MAKE A COPY OF ALL OF YOUR PROGRAMS INCASE THE EXTERNAL APP IS A APP DELETER
+first copy the file to apps in the User@Root# in the sys folder
+second add the code
+//add under the last option in yourversion of jhonny os
+echo number for name 
+//add with all other if statements
+if %ans%== number goto app1
+//add under the last menu
+:app1
+cd apps
+cls
+start name.extention
+cls
+goto :main
+option 2 less coveinient 
+//OR YOU CAN DO THIS
+//move the app to the apps folder in sys\User@Root#\apps
+//load the kernel and login
+//uname and pass are root
+//when your booted into the system press 4 and hit enter
+//it will open a cmd in the current dir (User@Root#) 
+//type cd apps
+//type start apppname.extention && exit
+//and it will load the app 
